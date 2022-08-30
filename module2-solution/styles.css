@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    font-family: sora;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    text-align: Center;
+}
+.box{
+    background-color: blue;
+    width: 30%;
+    height: auto;
+    position: relative;
+    border: 1px solid black;
+    padding-top: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin: 15px;
+    float: left;
+}
+.box-1{
+    position: absolute;
+    top: 0px;
+    right:0px;
+    color: black;
+    padding: 2px;
+    border: 1px solid black;
+    margin-bottom: 2px;
+    background-color: white;
+}
+p{
+    color: black;
+}
+.second-box{
+    background-color: rgb(251, 255, 0);
+    width: 30%;
+    height: auto;
+    position: relative;
+    border: 1px solid black;
+    padding-top: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin: 15px;
+    float: left;
+}
+.third-box{
+    background-color: rgb(255, 0, 157);
+    width: 30%;
+    height: auto;
+    position: relative;
+    border: 1px solid black;
+    padding-top: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin: 15px;
+    float: left;
+}
+.clearfix::after{
+    content: "";
+    clear:both;
+    display: table;
+}
